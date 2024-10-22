@@ -1,0 +1,16 @@
+*{
+margin: 0;
+}
+
+#face{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+}

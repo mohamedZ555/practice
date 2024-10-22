@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%, .1);
+}
+
+.card {
+    border-radius: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 3px 3px 20px 0 rgb(233, 233, 233);
+}
+
+.first-card {
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.cercle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.second-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-left: 10px;
+}
+
+span {
+    padding-left: 6px;
+}
+
+.gray {
+    color: hsl(224, 37%, 78%);
+}
+
+.black {
+    color: black;
+}
+
+.center {
+    display: flex;
+}
+
+.summary {
+    margin: 10% 20px 0;
+}
+
+h2 {
+    color: white;
+    margin: 40px auto 17px;
+}
+
+.Reaction {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsl(0, 100%, 67%, .1);
+    color: hsl(0, 100%, 67%);
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsl(39, 100%, 56%, .1);
+    color: hsl(39, 100%, 56%);
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsl(166, 100%, 37%, .1);
+    color: hsl(166, 100%, 37%);
+    padding: 17px;
+    border-radius: 10px;
+
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    background-color: hsl(234, 85%, 45%, .1);
+    color: hsl(234, 85%, 45%);
+    padding: 17px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 50px;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+a:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
+
+h3.gray {
+    width: 250px;
+    margin: 10% auto;
+}
+
+#text {
+    width: 70%;
+    margin: auto auto 50px;
+}
+
+@media(max-width:530px) {
+    .first-card {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: absolute;
+        top: 0;
+    }
+
+    .second-card {
+        width: 100%;
+    }
+
+}

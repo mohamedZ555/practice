@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+.content{
+    text-align: center;
+}
+
+#label{
+    font-size: 100px;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(92, 92, 230);
+    color: white;
+    cursor: pointer;
+}
+hr{
+margin-top: 30px;
+}
+
+
+
+.btn:hover{
+    background-color: rgba(92, 92, 230, 0.705);
+}
+
+.btn:active{
+    background-color: rgba(228, 11, 11, 0.719);
+
+}
+
+
+#roll{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(92, 92, 230);
+    color: white;
+    cursor: pointer; 
+}
+
+#mylabel, #roll{
+    margin: 30;
+    font-size: 3em;
+}
+
+.ana{
+    text-align: center;
+    margin-top: 15px;
+}
+#roll:hover{
+    background-color: rgba(92, 92, 230, 0.705);
+}
+
+#roll:active{
+    background-color: rgba(228, 11, 11, 0.719);
+
+}
+
+#submite{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(92, 92, 230);
+    color: white;
+    cursor: pointer; 
+}
+
+#pra { 
+    margin:20px; ;
+}
+
+#submite:hover{
+    background-color: rgba(92, 92, 230, 0.705);
+}
+
+#submite:active{
+    background-color: rgba(228, 11, 11, 0.719);
+
+}
+

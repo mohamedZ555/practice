@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    width: 340px;
+    margin: auto;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 25px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.view {
+    border-radius: 10px;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, .6);
+    padding: 121px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.view:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    width: 36%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-weight: 400;
+    height: 20px;
+}
+
+.gray {
+    color: hsl(215, 51%, 70%);
+}
+
+.blue {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    opacity: .1;
+}
+
+.what {
+    color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.what:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.second-photo {
+    width: 15%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1px;
+
+}
+
+span {
+    padding-right: 2px;
+    cursor: auto;
+}
+
+.last {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}

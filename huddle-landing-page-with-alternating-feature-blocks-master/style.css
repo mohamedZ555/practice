@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    max-width: 1440px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.mo-salah {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.first-photo {
+    width: 55%;
+    height: 50%;
+    position: relative;
+    bottom: 90px;
+}
+
+.head {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+
+}
+
+.try-it {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 60px;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 3px 16px rgb(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.try-it:hover {
+    opacity: .6;
+}
+
+#mohamed {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.build {
+
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.huddle {
+    font-size: 18px;
+}
+
+.get-start {
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    width: 50%;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 160px;
+    cursor: pointer;
+}
+
+.get-start:hover {
+    opacity: .7;
+}
+
+@media (max-width:650px) {
+    .header {
+        background-image: url(/images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .head {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .huddle-header {
+        width: 80%;
+        height: 20px;
+    }
+
+    .try-it {
+        padding: 8px 30px;
+
+    }
+
+    .flowing-cont {
+        overflow: hidden;
+    }
+
+    .first-photo {
+        width: 90%;
+        height: 200px;
+        bottom: 0;
+        margin-bottom: 30px;
+    }
+
+    .mo-salah {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mohamed {
+        width: 85%;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .build {
+        font-size: 21px;
+        width: 85%;
+        font-weight: bold;
+    }
+
+    .huddle {
+        font-size: 14px;
+        padding-left: 5px;
+
+    }
+
+    .get-start {
+        width: 85%;
+        padding: 10px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Grow-cont,
+.flowing-cont,
+.Your-cont {
+    box-shadow: 0 3px 16px rgb(0, 0, 0, 0.12);
+    display: flex;
+    width: 85%;
+    margin: auto auto 50px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.photo {
+    width: 40%;
+    padding: 40px;
+}
+
+.p {
+    color: hsl(208, 11%, 55%);
+
+}
+
+.Grow-cont {
+    margin-top: 200px;
+}
+
+.flowing-cont {
+    flex-direction: row-reverse;
+}
+
+.flowing-cont .text {
+    width: 50%;
+    padding-right: 20px;
+
+}
+
+.ready-to-build h1 {
+    font-size: 25px;
+}
+
+.ready-to-build {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 3px 16px rgb(0, 0, 0, 0.12);
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 200px;
+    z-index: 5;
+    background-color: white;
+}
+
+.get-start-for-free {
+    border: 0;
+    border-radius: 30px;
+    padding: 20px 100px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 40px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.get-start-for-free:hover {
+    opacity: .7;
+}
+
+@media (max-width:650px) {
+
+    .Grow-cont,
+    .flowing-cont,
+    .Your-cont {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0;
+        padding-top: 40px;
+        width: 90%;
+    }
+
+    .text {
+        width: 80%;
+        padding: 0;
+    }
+
+    .photo {
+        width: 80%;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .p {
+        font-size: 14px;
+        padding-bottom: 35px;
+    }
+
+    .Your-cont .p {
+        padding-right: 6px;
+        margin-left: 6px;
+
+    }
+
+    .Grow-cont {
+        margin-top: 60px;
+    }
+
+    .flowing-cont .text {
+        padding: 0;
+        width: 80%;
+    }
+
+    .ready-to-build h1 {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .ready-to-build {
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .get-start-for-free {
+        padding: 13px 38px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -60px;
+    z-index: -1;
+    color: white;
+}
+
+.second-logo {
+    width: 40%;
+    height: 10%;
+}
+
+.master {
+    display: flex;
+    padding: 200px 0 40px 0;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.first-column {
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.career {
+    padding-left: 100px;
+}
+
+.about {
+    padding-left: 140px;
+
+}
+
+.about,
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.Lorem {
+    margin-left: 20px;
+}
+
+.logos {
+    display: flex;
+    padding: 0;
+    width: 30%;
+    padding-left: 120px;
+    padding-bottom: 75px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.last {
+    width: 85%;
+    margin: auto;
+    text-align: end;
+    padding-bottom: 80px;
+    font-size: 12px;
+}
+
+a :hover {
+    color: hsl(322, 100%, 66%);
+    display: inline-flex;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+
+@media (max-width:650px) {
+
+    .master {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    .first-column {
+        width: 100%;
+    }
+
+    .about,
+    .career {
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .about {
+        margin: 30px 0 10px 0;
+    }
+
+    .nagar {
+        padding-right: 80px;
+    }
+
+    .logos {
+        width: fit-content;
+        padding: 0;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .last {
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+
+}
