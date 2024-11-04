@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+$color-head:hsl(217, 19%, 35%);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope',sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px
+}
+
+.card{
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 2px 10px 0px rgb(155, 151, 151);
+    position: relative;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.pad{
+    padding:20px 20px 20px 33px;
+}
+.first-head{
+    color: $color-head;
+    font-weight: bold;
+    padding-right: 18px;
+    margin-bottom: 10px;
+}
+
+.first-pra{
+    color: hsl(214, 17%, 51%);
+}
+
+.sec-head{
+color:$color-head;
+font-weight: bold;
+}
+
+.sec-pra{
+    color: hsl(212, 23%, 69%);
+}
+
+.img2{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.btn{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 25px;
+    border: none;
+    cursor: pointer;
+    background-color:hsl(212, 23%, 69%) ;
+    z-index: 200;
+}
+
+.noti{
+    background-color: $color-head;
+    position: absolute;
+    display: flex;
+    bottom: 35%;
+    right: -10%;
+    width: 240px;
+    justify-content: space-between;
+    padding: 14px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0px rgb(155, 151, 151);
+}
+.noti::after{
+content: "";
+position: absolute;
+top: 100%;
+right: 42%;
+border:15px solid $color-head;
+border-bottom: 15px solid transparent;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+
+}
+
+.share{
+    font-style: length;
+    color: hsl(212, 23%, 69%);
+}
+
+@media (max-width:700px) {
+    .card{display: flex;
+    flex-direction: column;
+    }
+    .noti{width: 100%;
+    bottom: 0;
+    right: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    }
+    .noti::after{
+        content: none;
+    }
+
+    .btn{
+        bottom: 18px;
+    }
+}
