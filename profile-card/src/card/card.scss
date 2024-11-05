@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+    object-fit: cover; 
+}
+
+.card{
+    width: 500px;
+    height: 240px;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px 3px gray;
+    z-index: 100;
+}
+.head{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.card-header{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.texts{
+    margin-top: 10px;
+}
+
+.head{
+    font-size: 30px;
+}
+
+.mail{
+    font-size: 15px;
+
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover{
+        color: rgb(89, 139, 233);
+    }
+}
+
+.job{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.des{
+    font-size: 15px;
+    margin-top: 10px;
+}
